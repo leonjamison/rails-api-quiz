@@ -4,16 +4,17 @@
 
 1. Write the command to create a new Rails application in API mode with a Postgresql database.
 
+ANSWER: rails new project-name-here --api --database=postgresql
 ```
 ```
 
 2. What are 5 other options that can be passed in to the `rails new` command and what do they do?
-
+ANSWER: you can run rails new --help to see all options from skipping bundles to runtime options as well
 ```
 ```
 
 3. What one line of code can be put into `routes.rb` to get all the RESTful routes for a given resource (e.g., dogs)?
-
+ANSWER: rake routes
 ```
 ```
 
@@ -23,7 +24,7 @@
 ```
 
 5. What is serialization in reference to a Rails API?
-
+ANSWER: It changes an object into that string of the api format so that it can be used
 ```
 ```
 
@@ -43,6 +44,7 @@
 ```
 
 9. What does CORS mean? Why do we have to think about it when making an API?
+ANSWER: CORS - Cross Origin Resource Sharing; We have to think about it because it blocks any random JS during a HTTP request
 
 ```
 ```
